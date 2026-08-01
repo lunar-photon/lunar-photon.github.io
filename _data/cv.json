@@ -1,152 +1,205 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Chandra Prakash",
+    "email": "chandra.pp@alumni.iitg.ac.in",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://lunar-photon.github.io",
+    "summary": "MSc Physics graduate from IIT Guwahati studying quantum fields in nontrivial gravitational backgrounds, from cosmological spacetimes to black-hole geometries. Particularly interested in Quantum Field Theory in Curved Spacetime, EFT of Gravity, Asymptotic Symmetries & Holography, and Early Universe Cosmology.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Guwahati",
+      "countryCode": "IN",
+      "region": "Assam, India"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Chandra Prakash",
+        "url": "https://scholar.google.com/citations?user=uaCF9ZEAAAAJ"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "network": "InspireHEP",
+        "username": "Chandra Prakash",
+        "url": "https://inspirehep.net/authors/2545328"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "lunar-photon",
+        "url": "https://github.com/lunar-photon"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "position": "Research Collaborator - Dirac Bracket and QFT in Curved Spacetime",
+      "company": "Shanghai University, China",
+      "startDate": "2026-01-01",
+      "endDate": "",
+      "summary": "Collaborator: Dr. Rajesh Karmakar. Research focus: quantum field theory in curved spacetime, black hole backgrounds, vacuum structure.",
+      "highlights": [
+        "Analytical study of field dynamics in curved spacetime",
+        "Basis construction via L\u00f6wdin orthogonalization",
+        "Constrained systems analysis using Dirac-type methods"
+      ]
+    },
+    {
+      "position": "Non-relativistic Limit of AdS/CFT in Momentum Space",
+      "company": "Indian Institute of Technology Mandi",
+      "startDate": "2025-06-01",
+      "endDate": "2025-12-01",
+      "summary": "Guide: Dr. Nirmalya Kajuri. Studied the Galilean Conformal Algebra in momentum space to deduce constraints on relativistic AdS/CFT limits.",
+      "highlights": [
+        "Analyzed the Galilean Conformal Algebra (GCA) via Wigner-In\u00f6n\u00fc contraction",
+        "Derived generators in position and momentum space",
+        "Deduced and solved Ward identities for two- and three-point functions"
+      ]
+    },
+    {
+      "position": "Cosmological Correlations during Reheating",
+      "company": "Indian Institute of Technology Guwahati",
+      "startDate": "2024-07-01",
+      "endDate": "2025-04-01",
+      "summary": "Guide: Prof. Dr. Debaprasad Maity. Cosmological collider physics and early-universe particle production.",
+      "highlights": [
+        "Evolved cosmological correlators from the end of inflation to the CMB sky",
+        "Studied particle production and CMB effects"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "Indian Institute of Technology Guwahati (IITG)",
+      "area": "M.Sc. Physics",
+      "studyType": "Master of Science",
+      "startDate": "2023-07-01",
+      "endDate": "2025-06-01",
+      "gpa": "8.65/10",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Savitribai Phule Pune University",
+      "area": "B.Sc. Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2020-06-01",
+      "endDate": "2023-06-01",
+      "gpa": "9.38/10",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Physics",
+      "keywords": [
+        "Quantum Field Theory in Curved Spacetime",
+        "Cosmological Perturbation Theory",
+        "Effective Field Theory & Schwinger-Keldysh Formalism",
+        "Constrained Hamiltonian Systems",
+        "Black Hole Quantum Physics",
+        "Conformal Symmetry and Ward Identities"
+      ]
+    },
+    {
+      "name": "Computational",
+      "keywords": [
+        "Python",
+        "C++",
+        "Fortran",
+        "Mathematica"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
-  "references": [],
+  "references": [
+    {
+      "name": "Dr. Nirmalya Kajuri",
+      "reference": "Assistant Professor, School of Physical Sciences, Indian Institute of Technology Mandi \u2014 nirmalya@iitmandi.ac.in"
+    },
+    {
+      "name": "Prof. Debaprasad Maity",
+      "reference": "Professor, Department of Physics, Indian Institute of Technology Guwahati \u2014 debu@iitg.ac.in"
+    },
+    {
+      "name": "Prof. Ashwini Kumar Sharma",
+      "reference": "Professor, Department of Physics, Indian Institute of Technology Guwahati \u2014 aksharma@iitg.ac.in"
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Canonical quantization of massive vector field in Schwarzschild black hole background",
+      "publisher": "Under review, Physical Review D (PRD)",
+      "releaseDate": "2026-01-01",
+      "website": "https://arxiv.org/abs/2605.27047",
+      "summary": "With Rajesh Karmakar. Canonical quantization of a massive vector field in a Schwarzschild black hole background."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Cosmological correlators from the Inflation end to CMB sky via reheating",
+      "publisher": "Under review, Journal of High Energy Physics (JHEP)",
+      "releaseDate": "2026-03-01",
+      "website": "https://arxiv.org/abs/2603.24635",
+      "summary": "With Debaprasad Maity. Tracing particle production and quantum field dynamics during inflation and their imprints on cosmological correlation functions."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Momentum Space Correlation Functions in 2D Galilean Conformal Algebra",
+      "publisher": "Journal of High Energy Physics (JHEP)",
+      "releaseDate": "2025-12-01",
+      "website": "https://arxiv.org/abs/2512.21733",
+      "summary": "With Anchita Chetia and Nirmalya Kajuri. Momentum space correlation functions in the context of 2D Galilean Conformal Algebra."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Generalized Brick Wall Method for Stationary Axisymmetric Spacetimes",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2020-10-01",
+      "website": "https://arxiv.org/abs/2010.10868",
+      "summary": "Extension of the brick wall method to compute black hole entropy in stationary axisymmetric spacetimes."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "From Quantum Fields to Cosmic Structures: Tracing Particle Production During Inflation",
+      "event": "MSc Thesis Defense, IIT Guwahati, Department of Physics",
+      "date": "2026-06-01",
+      "location": "Guwahati, Assam, India",
+      "description": "MSc thesis defense presenting work on particle production and quantum field dynamics during inflation, and their imprints on cosmological correlation functions. Advisor: Dr. Debaprasad Maity."
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Momentum Operators and Wave\u2013Particle Duality in Quantum Field Theory",
+      "event": "BSc Thesis Defense, Department of Physics, Advisor: Prof. Lalita Rane",
+      "date": "2023-06-01",
+      "location": "India",
+      "description": "BSc thesis defense examining the ultra-relativistic limit of the de Broglie relation via the spectral properties of the momentum operator in free quantum field theory."
     }
   ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "Conformal Field Theory Notes",
+      "category": "notes",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "/files/notes/cft-notes.pdf",
+      "description": "Self-contained derivations in conformal field theory, based on \"The Yellow Book\" (Di Francesco et al.)."
+    },
+    {
+      "name": "Cosmology Notes",
+      "category": "notes",
+      "date": "",
+      "url": "/files/notes/cosmology-notes.pdf",
+      "description": "Notes on inflation and early-universe thermal history."
+    },
+    {
+      "name": "String Theory Notes",
+      "category": "notes",
+      "date": "",
+      "url": "/files/notes/string-theory-notes.pdf",
+      "description": "Notes based on Volume 1 of Polchinski's String Theory."
+    },
+    {
+      "name": "General Relativity Notes",
+      "category": "notes",
+      "date": "",
+      "url": "https://drive.google.com/file/d/1QE0X7HjovSNtetwUO4X8BdfiVoTAhUhK/view",
+      "description": "Foundational notes from Prof. B.R. Majhi."
     }
   ]
 }
