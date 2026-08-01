@@ -1,22 +1,12 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "Momentum Operators and Wave\u2013Particle Duality in Quantum Field Theory<br />Department of Physics, Advisor: Prof. Lalita Rane; India",
+    22.3511148,
+    78.6677428
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
-  ],
-  [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "From Quantum Fields to Cosmic Structures: Tracing Particle Production During Inflation<br />IIT Guwahati, Department of Physics; Guwahati, Assam, India",
+    26.1805978,
+    91.753943
   ]
 ];
