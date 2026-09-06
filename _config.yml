@@ -27,7 +27,7 @@ author:
   pronouns         : "he/him"
   bio              : "MSc Physics graduate from IIT Guwahati. Curious explorer of quantum gravity, holography, and early universe cosmology."
   location         : "Guwahati, Assam, India"
-  employer         : "Research Collaborator, Shanghai University"
+  employer         : "IIT Guwahati"
   uri              : https://lunar-photon.github.io
   email            : "chandra.pp@alumni.iitg.ac.in"
 
@@ -37,7 +37,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=uaCF9ZEAAAAJ"
   inspire-hep      : "https://inspirehep.net/authors/2545328"
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/0000-0003-4413-7861"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
@@ -63,7 +63,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "lunarphoton"
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
