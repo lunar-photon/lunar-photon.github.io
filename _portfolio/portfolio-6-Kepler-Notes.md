@@ -1,9 +1,9 @@
 ---
-title: "Kepler Notes"
-excerpt: "Central Force and Kepler Problem in Astrophysics. <br/><a href='/files/notes/Kepler-Notes.pdf'>View PDF</a>"
+title: "Astrophysics Notes"
+excerpt: "Beginner's notes on Astrophysics. <br/><a href='/files/notes/AstroPhysics.pdf'>View PDF</a>"
 collection: portfolio
 ---
 
 These notes are personal study materials based primarily on Lectures on Astrophysics. I welcome feedback, corrections, or discussions regarding the content of these notes.
 
-[Download the notes (PDF)](/files/notes/Kepler-Notes.pdf)
+[Download the notes (PDF)](/files/notes/AstroPhysics.pdf)
