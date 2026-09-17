@@ -6,11 +6,11 @@ permalink: /portfolio/
 
 <p>Deep-dive personal notes focusing on complete mathematical transparency, developed alongside coursework and research.</p>
 
-<ol class="notes-index">
+<div class="course-grid">
   {% for post in site.portfolio %}
-    <li>
-      <span class="idx">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
-      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <div class="card course-card">
+      <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+    </div>
   {% endfor %}
-</ol>
+</div>

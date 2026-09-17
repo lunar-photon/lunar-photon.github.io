@@ -8,11 +8,11 @@ permalink: /publications/
 
 <div class="entry-list">
   {% for post in site.publications reversed %}
-    <div class="entry">
+    <div class="entry card">
       <span class="entry-year">{{ post.date | date: "%Y" }}</span>
       <div class="entry-body">
         {{ post.citation }}
-        <span class="links"><a href="{{ post.paperurl }}">[arXiv]</a>{% if post.doi %} <a href="{{ post.doi }}">[DOI]</a>{% endif %}</span>
+        <span class="links"><a class="btn btn-sm" href="{{ post.paperurl }}">arXiv</a>{% if post.doi %} <a class="btn btn-sm" href="{{ post.doi }}">DOI</a>{% endif %}</span>
         <span class="venue">{{ post.excerpt }}</span>
       </div>
     </div>

@@ -1,0 +1,46 @@
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% include seo.html %}
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
+  <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
+  <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
+  <link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
+  <meta name="theme-color" content="#f8f6f0"/>
+
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="site-title" href="{{ base_path }}/">{{ site.author.name }}</a>
+    <nav class="site-nav">
+      <a href="{{ base_path }}/"{% if page.url == "/" %} class="active"{% endif %}>Home</a>
+      {% for link in site.data.navigation.main %}<a href="{{ link.url | relative_url }}"{% if page.url == link.url %} class="active"{% endif %}>{{ link.title }}</a>{% endfor %}
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      &middot; <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      &middot; <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      &middot; <a href="{{ site.author.arxiv }}">arXiv</a>
+      &middot; Last updated {{ "now" | date: "%Y-%m-%d" }}
+    </p>
+  </footer>
+
+  <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+
+</body>
+</html>
