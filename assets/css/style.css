@@ -1,0 +1,132 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #111111;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 1.55;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+a {
+  color: #1a4fa0;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(26, 79, 160, 0.35);
+}
+
+a:hover {
+  color: #0b2f66;
+  border-bottom-color: currentColor;
+}
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.25rem;
+  border-bottom: 1px solid #111;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.site-title {
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: #111;
+  border-bottom: none;
+}
+
+.site-header nav a {
+  margin-left: 1.1rem;
+  font-size: 0.95rem;
+}
+
+.site-header nav a:first-child {
+  margin-left: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0 0 1.25rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 2rem 0 0.75rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25rem;
+}
+
+h3 {
+  font-size: 1.02rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+p, ul, ol {
+  margin: 0 0 1rem;
+}
+
+ul, ol {
+  padding-left: 1.4rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+.meta {
+  color: #555;
+  font-size: 0.92rem;
+  margin: -0.5rem 0 1.25rem;
+}
+
+.pub-list li,
+.talk-list li,
+.notes-list li {
+  margin-bottom: 0.9rem;
+}
+
+.pub-list .venue,
+.talk-list .venue {
+  color: #444;
+}
+
+code, pre {
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 0.9em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.site-footer a {
+  color: #444;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

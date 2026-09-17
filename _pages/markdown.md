@@ -1,7 +1,6 @@
 ---
 permalink: /guide/
 title: "Guide for Students"
-author_profile: true
 redirect_from:
   - /markdown/
   - /markdown.html

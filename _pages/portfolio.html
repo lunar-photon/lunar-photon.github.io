@@ -1,16 +1,13 @@
 ---
-layout: archive
+layout: default
 title: "Notes"
 permalink: /portfolio/
-author_profile: true
 ---
 
-Deep-dive personal notes focusing on complete mathematical transparency, developed alongside coursework and research.
+<p>Deep-dive personal notes focusing on complete mathematical transparency, developed alongside coursework and research.</p>
 
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<ul class="notes-list">
+  {% for post in site.portfolio %}
+    <li><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

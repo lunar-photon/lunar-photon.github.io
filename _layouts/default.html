@@ -1,31 +1,59 @@
----
-layout: compress
----
-
 {% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="{{ site.locale | slice: 0,2 }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
+  {% include seo.html %}
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
+  <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
+  <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
+  <link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
+  <meta name="theme-color" content="#ffffff"/>
+
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="site-title" href="{{ base_path }}/">{{ site.author.name }}</a>
+    <nav>
+      {% for link in site.data.navigation.main %}<a href="{{ link.url | relative_url }}">{{ link.title }}</a>{% endfor %}
+    </nav>
+  </header>
+
+  <main>
+    {% unless page.url == "/" %}
+      {% if page.title %}<h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+    {% endunless %}
+
+    {% if page.collection == "talks" %}
+      <p class="meta">{{ page.date | date: "%B %Y" }} &middot; {{ page.type }}, {{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>
+    {% elsif page.venue and page.date %}
+      <p class="meta">{{ page.venue }}, {{ page.date | date: "%Y" }}</p>
+    {% endif %}
 
     {{ content }}
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+    {% if page.citation and page.paperurl %}
+      <p class="meta">{{ page.citation }} <a href="{{ page.paperurl }}">[arXiv]</a></p>
+    {% endif %}
+  </main>
 
-    {% include scripts.html %}
+  <footer class="site-footer">
+    <p>
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      &middot; <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      &middot; <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      &middot; <a href="{{ site.author.arxiv }}">arXiv</a>
+    </p>
+    <p>Last updated {{ "now" | date: "%Y-%m-%d" }}</p>
+  </footer>
 
-  </body>
+  <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+
+</body>
 </html>

@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: default
 title: "CV"
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
 ---
@@ -60,15 +59,19 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+<ol>
+  {% for post in site.publications reversed %}
+    <li>{{ post.citation }} <a href="{{ post.paperurl }}">[arXiv]</a></li>
+  {% endfor %}
+</ol>
+
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+<ul>
+  {% for post in site.talks reversed %}
+    <li>{{ post.date | date: "%Y" }} &middot; <em>{{ post.title }}</em> &mdash; {{ post.type }}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</li>
+  {% endfor %}
+</ul>
   
 Conferences and schools
 ======
