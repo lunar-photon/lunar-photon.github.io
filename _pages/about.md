@@ -8,7 +8,7 @@ redirect_from:
 
 <section class="hero-section">
   <div class="hero-grid">
-    <img class="hero-portrait" src="{{ base_path }}/images/profile.jpg" alt="{{ site.author.name }}">
+    <img class="hero-portrait" src="{{ base_path }}/images/profile-hero.jpg" alt="{{ site.author.name }}">
     <div class="hero-copy">
       <div class="section-label hero-label"><span>Welcome</span></div>
       <h1>{{ site.author.name }}</h1>
