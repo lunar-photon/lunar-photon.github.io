@@ -10,7 +10,7 @@ permalink: /publications/
   {% for post in site.publications reversed %}
     <li>
       {{ post.citation }}
-      <a href="{{ post.paperurl }}">[arXiv]</a>
+      <a href="{{ post.paperurl }}">[arXiv]</a>{% if post.doi %} <a href="{{ post.doi }}">[DOI]</a>{% endif %}
       <br><span class="venue">{{ post.excerpt }}</span>
     </li>
   {% endfor %}

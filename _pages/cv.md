@@ -61,7 +61,7 @@ Publications
 ======
 <ol>
   {% for post in site.publications reversed %}
-    <li>{{ post.citation }} <a href="{{ post.paperurl }}">[arXiv]</a></li>
+    <li>{{ post.citation }} <a href="{{ post.paperurl }}">[arXiv]</a>{% if post.doi %} <a href="{{ post.doi }}">[DOI]</a>{% endif %}</li>
   {% endfor %}
 </ol>
 

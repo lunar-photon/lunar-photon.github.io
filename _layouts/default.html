@@ -38,7 +38,7 @@
     {{ content }}
 
     {% if page.citation and page.paperurl %}
-      <p class="meta">{{ page.citation }} <a href="{{ page.paperurl }}">[arXiv]</a></p>
+      <p class="meta">{{ page.citation }} <a href="{{ page.paperurl }}">[arXiv]</a>{% if page.doi %} <a href="{{ page.doi }}">[DOI]</a>{% endif %}</p>
     {% endif %}
   </main>
 
