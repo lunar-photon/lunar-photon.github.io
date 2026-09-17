@@ -7,16 +7,14 @@ redirect_from:
 ---
 
 <section class="hero-section">
-  <div class="hero-grid">
-    <img class="hero-portrait" src="{{ base_path }}/images/profile-hero.jpg" alt="{{ site.author.name }}">
-    <div class="hero-copy">
-      <div class="section-label hero-label"><span>Welcome</span></div>
-      <h1>{{ site.author.name }}</h1>
-      <p class="intro-text">I am an MSc graduate in Physics from IIT Guwahati with a strong interest in quantum gravity. My focus has been on understanding gravity at the quantum level, the role of spacetime in encoding information, and the foundations of holography. These questions have guided my studies since my undergraduate years, and I have steadily worked to build the technical foundation needed to engage with them in a serious way.</p>
-      <div class="button-row">
-        <a class="btn" href="{{ base_path }}/publications/">Publications</a>
-        <a class="btn" href="{{ base_path }}/portfolio/">Notes</a>
-      </div>
+  <div class="hero-copy">
+    <div class="section-label hero-label"><span>Welcome</span></div>
+    <h1>{{ site.author.name }}</h1>
+    <img class="hero-avatar" src="{{ base_path }}/images/profile-hero.jpg" alt="{{ site.author.name }}">
+    <p class="intro-text">I am an MSc graduate in Physics from IIT Guwahati with a strong interest in quantum gravity. My focus has been on understanding gravity at the quantum level, the role of spacetime in encoding information, and the foundations of holography. These questions have guided my studies since my undergraduate years, and I have steadily worked to build the technical foundation needed to engage with them in a serious way.</p>
+    <div class="button-row">
+      <a class="btn" href="{{ base_path }}/publications/">Publications</a>
+      <a class="btn" href="{{ base_path }}/portfolio/">Notes</a>
     </div>
   </div>
 </section>
