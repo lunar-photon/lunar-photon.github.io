@@ -43,14 +43,11 @@ redirect_from:
   <div class="section-heading">
     <div class="section-label"><span>Selected Work</span></div>
     <h2>Personal Notes</h2>
-    <p>Deep-dive notes focusing on complete mathematical transparency, developed alongside coursework and research.</p>
+    <p>Deep-dive notes focusing on complete mathematical transparency, developed alongside coursework and research. Click a bubble to jump straight in.</p>
   </div>
-  <div class="course-grid">
+  <div class="bubble-field">
     {% for post in site.portfolio %}
-      <div class="card course-card">
-        <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
-        <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
-      </div>
+      <a class="bubble" href="{{ base_path }}{{ post.url }}">{{ post.title | remove: " Notes" }}</a>
     {% endfor %}
   </div>
   <div class="section-link">
