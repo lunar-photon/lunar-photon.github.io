@@ -64,3 +64,46 @@ redirect_from:
     <p>Currently working on Dirac brackets and quantum field theory in curved spacetime, in collaboration with Dr. Rajesh Karmakar at Shanghai University. Alongside that, I keep adding to the notes above as my own understanding of these subjects deepens.</p>
   </div>
 </section>
+
+<section class="section">
+  <div class="section-heading">
+    <div class="section-label"><span>Reading List</span></div>
+    <h2>The Stack</h2>
+    <p>Built over several years, starting from scratch. These are the books that got me here.</p>
+  </div>
+  <div class="card book-card">
+    <div class="book-grid">
+      <div class="book-item">Quantum Mechanics: Fundamentals <span class="book-author">— Gottfried, Yan</span></div>
+      <div class="book-item">Nonlinear Dynamics and Chaos <span class="book-author">— Strogatz</span></div>
+      <div class="book-item">Quantization of Gauge Systems <span class="book-author">— Henneaux, Teitelboim</span></div>
+      <div class="book-item">Supersymmetry &amp; Supergravity <span class="book-author">— Buchbinder, Kuzenko</span></div>
+      <div class="book-item">Lie Algebras in Particle Physics <span class="book-author">— Georgi</span></div>
+      <div class="book-item">Gauge Field Theory <span class="book-author">— Bailin, Love</span></div>
+      <div class="book-item">Gravitation and Cosmology <span class="book-author">— Weinberg</span></div>
+      <div class="book-item">Finite Temperature Field Theory <span class="book-author">— Ashok Das</span></div>
+      <div class="book-item">Lie Groups &amp; Applications <span class="book-author">— Gilmore</span></div>
+      <div class="book-item">Differential Topology &amp; QFT <span class="book-author">— Nash</span></div>
+      <div class="book-item">Mathematical Theory of Black Holes <span class="book-author">— Chandrasekhar</span></div>
+      <div class="book-item">The Dreams That Stuff Is Made Of <span class="book-author">— Hawking</span></div>
+      <div class="book-item">Spacetime and Geometry <span class="book-author">— Carroll</span></div>
+      <div class="book-item">Covariant Quantum Gravity <span class="book-author">— Percacci</span></div>
+      <div class="book-item">Advanced Quantum Mechanics <span class="book-author">— Sakurai</span></div>
+      <div class="book-item">Mathematical Methods for Physicists <span class="book-author">— Arfken et al.</span></div>
+      <div class="book-item">Introduction to Elementary Particles <span class="book-author">— Griffiths</span></div>
+      <div class="book-item">Fluid Mechanics <span class="book-author">— Lifshitz, Pitaevskii</span></div>
+      <div class="book-item">Quantum Computation &amp; Info <span class="book-author">— Nielsen, Chuang</span></div>
+      <div class="book-item">Quantum Theory of Fields Vol I–III <span class="book-author">— Weinberg</span></div>
+      <div class="book-item">Topology <span class="book-author">— Munkres</span></div>
+      <div class="book-item">Introduction to Electrodynamics <span class="book-author">— Griffiths</span></div>
+      <div class="book-item">Classical Electrodynamics <span class="book-author">— Greiner</span></div>
+      <div class="book-item">Classical Mechanics <span class="book-author">— Goldstein et al.</span></div>
+      <div class="book-item">Statistical Mechanics <span class="book-author">— Pathria, Beale</span></div>
+      <div class="book-item">Physics of Neutrino Interactions <span class="book-author">— Athar, Singh</span></div>
+      <div class="book-item">QFT and the Standard Model <span class="book-author">— Schwartz</span></div>
+      <div class="book-item">Conformal Field Theory <span class="book-author">— Di Francesco et al.</span></div>
+      <div class="book-item">String Theory Vol I–II <span class="book-author">— Polchinski</span></div>
+      <div class="book-item">Primordial Cosmology <span class="book-author">— Peter, Uzan</span></div>
+      <div class="book-item">Gravitation <span class="book-author">— Misner, Thorne, Wheeler</span></div>
+    </div>
+  </div>
+</section>

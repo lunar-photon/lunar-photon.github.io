@@ -308,6 +308,45 @@ main,
   margin: 2rem 0;
 }
 
+/* ---- book grid (reading list) ---- */
+
+.book-card {
+  padding: 1.5rem 1.75rem;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 0.1rem 2rem;
+}
+
+.book-grid .book-item {
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.88rem;
+  animation: book-bob 5s ease-in-out infinite;
+}
+
+.book-grid .book-item:nth-child(4n+1) { animation-delay: 0s; }
+.book-grid .book-item:nth-child(4n+2) { animation-delay: 0.5s; }
+.book-grid .book-item:nth-child(4n+3) { animation-delay: 1s; }
+.book-grid .book-item:nth-child(4n+4) { animation-delay: 1.5s; }
+
+@keyframes book-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.book-grid .book-author {
+  color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book-grid .book-item {
+    animation: none;
+  }
+}
+
 /* ---- notes / course card grid ---- */
 
 .course-grid {
