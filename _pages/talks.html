@@ -4,11 +4,14 @@ title: "Talks and presentations"
 permalink: /talks/
 ---
 
-<ul class="talk-list">
+<div class="entry-list">
   {% for post in site.talks reversed %}
-    <li>
-      {{ post.date | date: "%Y" }} &middot; <em>{{ post.title }}</em>
-      <br><span class="venue">{{ post.type }}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</span>
-    </li>
+    <div class="entry">
+      <span class="entry-year">{{ post.date | date: "%Y" }}</span>
+      <div class="entry-body">
+        <em>{{ post.title }}</em>
+        <span class="venue">{{ post.type }}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</span>
+      </div>
+    </div>
   {% endfor %}
-</ul>
+</div>

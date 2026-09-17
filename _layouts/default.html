@@ -17,38 +17,56 @@
 </head>
 <body>
 
-  <header class="site-header">
-    <a class="site-title" href="{{ base_path }}/">{{ site.author.name }}</a>
-    <nav>
-      {% for link in site.data.navigation.main %}<a href="{{ link.url | relative_url }}">{{ link.title }}</a>{% endfor %}
-    </nav>
-  </header>
+  <div class="shell">
+    <aside class="side-col">
+      <p class="kicker">Physics Notebook</p>
+      <a class="nameplate" href="{{ base_path }}/">{{ site.author.name }}</a>
 
-  <main>
-    {% unless page.url == "/" %}
-      {% if page.title %}<h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-    {% endunless %}
+      <nav>
+        <a href="{{ base_path }}/"{% if page.url == "/" %} class="active"{% endif %}>Home</a>
+        {% for link in site.data.navigation.main %}<a href="{{ link.url | relative_url }}"{% if page.url == link.url %} class="active"{% endif %}>{{ link.title }}</a>{% endfor %}
+      </nav>
 
-    {% if page.collection == "talks" %}
-      <p class="meta">{{ page.date | date: "%B %Y" }} &middot; {{ page.type }}, {{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>
-    {% elsif page.venue and page.date %}
-      <p class="meta">{{ page.venue }}, {{ page.date | date: "%Y" }}</p>
-    {% endif %}
+      <div class="side-tags">
+        <span class="tag">Quantum Gravity</span>
+        <span class="tag">Holography</span>
+        <span class="tag">Early-Universe Cosmology</span>
+        <span class="tag">QFT in Curved Spacetime</span>
+      </div>
 
-    {{ content }}
+      <div class="side-contact">
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+        <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+        <a href="{{ site.author.arxiv }}">arXiv</a>
+      </div>
+    </aside>
 
-    {% if page.citation and page.paperurl %}
-      <p class="meta">{{ page.citation }} <a href="{{ page.paperurl }}">[arXiv]</a>{% if page.doi %} <a href="{{ page.doi }}">[DOI]</a>{% endif %}</p>
-    {% endif %}
-  </main>
+    <main class="main-col">
+      {% unless page.url == "/" %}
+        {% if page.title %}
+          <header class="page-head">
+            <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+            {% if page.collection == "talks" %}
+              <p class="meta">{{ page.date | date: "%B %Y" }} &middot; {{ page.type }}, {{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>
+            {% elsif page.venue and page.date %}
+              <p class="meta">{{ page.venue }}, {{ page.date | date: "%Y" }}</p>
+            {% endif %}
+          </header>
+        {% endif %}
+      {% endunless %}
+
+      <article>
+        {{ content }}
+
+        {% if page.citation and page.paperurl %}
+          <p class="meta">{{ page.citation }} <a href="{{ page.paperurl }}">[arXiv]</a>{% if page.doi %} <a href="{{ page.doi }}">[DOI]</a>{% endif %}</p>
+        {% endif %}
+      </article>
+    </main>
+  </div>
 
   <footer class="site-footer">
-    <p>
-      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-      &middot; <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-      &middot; <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-      &middot; <a href="{{ site.author.arxiv }}">arXiv</a>
-    </p>
     <p>Last updated {{ "now" | date: "%Y-%m-%d" }}</p>
   </footer>
 

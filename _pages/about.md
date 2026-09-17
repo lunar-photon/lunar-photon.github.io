@@ -15,7 +15,9 @@ Alongside this, I have maintained a sustained engagement with holography, black 
 
 I have also maintained detailed personal notes on topics in theoretical physics, including conformal field theory, cosmology, general relativity, and string theory. These were developed alongside my studies and focus on working through derivations carefully rather than accepting results as they are. A significant part of this effort has been to reconstruct derivations from standard references in a more explicit and self-contained way, particularly in areas where intermediate steps are often omitted in textbooks. The aim has been to build clarity in the structure of the theories through explicit calculation. These notes are publicly accessible and continue to evolve as my understanding deepens.
 
-What this process has made clear to me is that the difficulty in approaching these subjects is rarely about intelligence. It is about access to the right formulations and the persistence required to work through them carefully. That realization has shaped how I approach learning in theoretical physics.
+<p class="pull">What this process has made clear to me is that the difficulty in approaching these subjects is rarely about intelligence. It is about access to the right formulations and the persistence required to work through them carefully.</p>
+
+That realization has shaped how I approach learning in theoretical physics.
 
 ## The Explorer's Stack
 
