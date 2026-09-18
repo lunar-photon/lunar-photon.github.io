@@ -1,9 +1,9 @@
 ---
 title: "Cosmology Notes"
-excerpt: "Inflation and early universe thermal history. <br/><a href='/files/notes/cosmology-notes.pdf'>View PDF</a>"
+excerpt: "Cosmological perturbation theory, CMB polarization, and the transfer function — every equation derived. <br/><a href='/files/notes/cosmology-notes.pdf'>View PDF</a>"
 collection: portfolio
 ---
 
-Personal notes on inflationary cosmology and the thermal history of the early universe, worked through in detail to build a self-contained understanding of the formalism used in cosmological perturbation theory.
+Personal notes on cosmological perturbation theory, with every equation derived explicitly. Covers the Boltzmann hierarchy and the polarization collision term, the CMB line-of-sight integral, the derivation of the age of the universe, and the matter transfer function.
 
 [Download the notes (PDF)](/files/notes/cosmology-notes.pdf)
