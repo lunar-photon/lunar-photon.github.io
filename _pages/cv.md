@@ -27,6 +27,7 @@ Research experience
   * Research focus: Quantum field theory in curved spacetime; black hole backgrounds; vacuum structure
   * Skills: QFT in curved spacetime, hidden symmetries, black hole physics, constrained Hamiltonian dynamics
   * Methodology: Analytical study of field dynamics in curved spacetime, including basis construction via Löwdin orthogonalization and constrained systems analysis using Dirac-type methods
+  * Outcome: C. Prakash & R. Karmakar, ["Canonical quantization of massive vector field in Schwarzschild black hole background"](/publication/2026-01-01-canonical-quantization-massive-vector-field-schwarzschild), *Phys. Rev. D* **114**, 065013 (2026)
 
 * Summer 2025 - December 2025: Non-relativistic Limit of AdS/CFT in Momentum Space
   * Indian Institute of Technology Mandi, Himachal Pradesh, India
