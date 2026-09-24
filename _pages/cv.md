@@ -21,7 +21,7 @@ Education
 
 Research experience
 ======
-* January 2026 - Present: Dirac Bracket and QFT in Curved Spacetime
+* January 2026 - June 2026: Dirac Bracket and QFT in Curved Spacetime
   * Shanghai University, China
   * Collaborator: Dr. Rajesh Karmakar
   * Research focus: Quantum field theory in curved spacetime; black hole backgrounds; vacuum structure
