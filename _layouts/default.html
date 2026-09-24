@@ -4,7 +4,7 @@ layout: base
 
 <div class="page-shell standard-page">
   {% if page.title %}
-    <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+    {% unless page.hide_title %}<h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endunless %}
     {% if page.collection == "talks" %}
       <p class="meta">{{ page.date | date: "%B %Y" }} &middot; {{ page.type }}, {{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>
     {% elsif page.venue and page.date %}

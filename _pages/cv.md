@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "CV"
+hide_title: true
 permalink: /cv/
 redirect_from:
   - /resume
