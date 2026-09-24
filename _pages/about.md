@@ -61,7 +61,7 @@ redirect_from:
 <section class="section">
   <div class="section-label"><span>Right Now</span></div>
   <div class="about-copy">
-    <p>Currently working on Dirac brackets and quantum field theory in curved spacetime, in collaboration with Dr. Rajesh Karmakar at Shanghai University. Alongside that, I keep adding to the notes above as my own understanding of these subjects deepens.</p>
+    <p>Currently working on Dirac brackets and quantum field theory in curved spacetime, in collaboration with Dr. Rajesh Karmakar at Shanghai University. I am also looking into early-universe and late-time cosmology. Alongside that, I keep adding to the notes above as my own understanding of these subjects deepens.</p>
   </div>
 </section>
 
