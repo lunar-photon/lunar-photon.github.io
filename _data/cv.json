@@ -200,6 +200,13 @@
       "date": "",
       "url": "/files/notes/general-relativity-notes.pdf",
       "description": "Foundational notes from Prof. B.R. Majhi."
+    },
+    {
+      "name": "Entanglement, Operator Algebras, and the Emergence of Spacetime",
+      "category": "notes",
+      "date": "",
+      "url": "/files/notes/entanglement-operator-algebras-notes.pdf",
+      "description": "A first introduction to von Neumann algebras, modular theory, and holography for physicists."
     }
   ]
 }
