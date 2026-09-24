@@ -11,3 +11,5 @@ doi: 'https://doi.org/10.1007/JHEP06(2026)253'
 citation: 'Chetia, A., Kajuri, N. & Prakash, C. (2026). "Momentum Space Correlation Functions in 2D Galilean Conformal Algebra." <i>JHEP</i> 06 (2026) 253.'
 ---
 This work explores momentum space correlation functions within the framework of 2D Galilean Conformal Algebra (GCA). We derive and analyze the structural properties of these correlation functions, revealing connections between non-relativistic conformal symmetries and their momentum space representations.
+
+This paper is the outcome of a research project with Dr. Nirmalya Kajuri at IIT Mandi (Summer–December 2025) on the non-relativistic limit of AdS/CFT in momentum space.

@@ -36,6 +36,7 @@ Research experience
   * Research focus: Studying the Galilean Conformal Algebra in momentum space to deduce constraints on relativistic AdS/CFT limits
   * Skills: Bootstrap techniques, conformal Ward identities, Wigner-Inönü contraction
   * Methodology: Analyzed the Galilean Conformal Algebra (GCA) via Wigner-Inönü contraction; derived generators in position and momentum space; deduced and solved Ward identities for two- and three-point functions
+  * Outcome: A. Chetia, N. Kajuri & C. Prakash, ["Momentum Space Correlation Functions in 2D Galilean Conformal Algebra"](/publication/2025-12-01-momentum-space-correlation-functions-gca), *JHEP* **06** (2026) 253
 
 * July 2024 - April 2025: Cosmological Correlations during Reheating
   * Indian Institute of Technology Guwahati, Assam, India
