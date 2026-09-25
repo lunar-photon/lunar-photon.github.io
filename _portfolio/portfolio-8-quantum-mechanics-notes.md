@@ -6,4 +6,4 @@ collection: portfolio
 
 Personal notes on quantum mechanics, written the way I always wanted to learn the subject: starting from foundational principles and working through every derivation explicitly without skipping intermediate steps.
 
-[Download the notes (PDF)](/files/notes/quantum-mechanics-notes.pdf) · [Source and LaTeX edition on GitHub](https://github.com/lunar-photon/Quantum-Mechanics-for-People-like-me)
+[Download the notes (PDF)](/files/notes/quantum-mechanics-notes.pdf)
