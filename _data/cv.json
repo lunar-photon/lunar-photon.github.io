@@ -209,6 +209,13 @@
       "date": "",
       "url": "/files/notes/entanglement-operator-algebras-notes.pdf",
       "description": "A first introduction to von Neumann algebras, modular theory, and holography for physicists."
+    },
+    {
+      "name": "Quantum Mechanics for People like me",
+      "category": "notes",
+      "date": "",
+      "url": "/files/notes/quantum-mechanics-notes.pdf",
+      "description": "A comprehensive, mathematically rigorous treatise on quantum mechanics with zero algebraic compression."
     }
   ]
 }
