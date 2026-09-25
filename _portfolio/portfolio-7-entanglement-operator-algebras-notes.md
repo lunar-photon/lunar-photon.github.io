@@ -8,4 +8,4 @@ Self-contained notes for readers who know linear algebra and undergraduate quant
 
 Every new construction is checked against a calculation from ordinary quantum mechanics, and every step of every calculation is numbered and explained. The logical development follows H. Liu, *Lectures on entanglement, von Neumann algebras, and emergence of spacetime* (arXiv:2510.07017).
 
-[Download the notes (PDF)](/files/notes/entanglement-operator-algebras-notes.pdf) · [Source and web edition on GitHub](https://github.com/lunar-photon/Lectures-on-entanglement-von-Neumann-algebras-and-emergence-of-spacetime)
+[Download the notes (PDF)](/files/notes/entanglement-operator-algebras-notes.pdf)
