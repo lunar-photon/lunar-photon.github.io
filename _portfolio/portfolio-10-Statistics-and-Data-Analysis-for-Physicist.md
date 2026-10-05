@@ -13,3 +13,7 @@ The later chapters turn these ideas into practical tools: **Monte Carlo methods,
 
 
 [Download the notes (PDF)](/files/notes/Statistics-and-Data-Analysis-for-Physicist.pdf)
+
+[Python cheat sheet (PDF)](/files/notes/Python-cheatsheet-for-Statistics-and-Data-Analysis.pdf): the Python the book's code uses, on a few pages.
+
+[Source on GitHub](https://github.com/lunar-photon/Statistics-and-Data-Analysis-for-Physicist): the LaTeX source, the Python script behind every figure and number, and the figures.
