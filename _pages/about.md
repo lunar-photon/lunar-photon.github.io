@@ -40,14 +40,14 @@ redirect_from:
   <div class="section-heading">
     <div class="section-label"><span>Selected Work</span></div>
     <h2>Personal Notes</h2>
-    <p>Personal notes on theoretical physics and cosmology, with detailed derivations. Click a bubble to learn more.</p>
+    <p>Personal notes on theoretical physics and cosmology, with detailed derivations.</p>
   </div>
-  <div class="bubble-field">
+  <div class="course-grid">
     {% for post in site.portfolio %}
-      <button type="button" class="bubble"
-        data-title="{{ post.title | escape }}"
-        data-desc="{{ post.excerpt | split: "<br" | first | strip_html | strip_newlines | escape }}"
-        data-href="{{ base_path }}{{ post.url }}">{{ post.title | remove: " Notes" }}</button>
+      <div class="card course-card">
+        <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | split: "<br" | first | strip_html }}</p>
+      </div>
     {% endfor %}
   </div>
   <div class="section-link">
