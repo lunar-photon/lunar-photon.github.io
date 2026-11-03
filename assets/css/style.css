@@ -662,3 +662,62 @@ code, pre {
     gap: 0.4rem;
   }
 }
+
+/* A restrained, reading-focused layout for the academic pages. */
+:root {
+  --bg: #111722;
+  --surface: #111722;
+  --ink: #f1f0eb;
+  --muted: #b7bfca;
+  --line: #344050;
+  --accent: #e1c88f;
+  --header-bg: #111722;
+  --max-width: 1050px;
+}
+
+.site-header { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.site-nav { font-family: -apple-system, "Segoe UI", sans-serif; font-weight: 500; }
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  align-items: start;
+  gap: 4rem;
+  padding: 5rem 0 3.5rem;
+}
+.home-intro-copy { max-width: 660px; }
+.eyebrow {
+  margin: 0 0 1rem;
+  color: var(--accent);
+  font: 600 0.75rem/1.4 -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.home-intro h1 { color: var(--ink); font-size: clamp(2.8rem, 5vw, 4.3rem); }
+.home-intro p, .home-section p { font-size: 1.08rem; line-height: 1.75; }
+.home-intro .lead { color: var(--accent); font-size: 1.3rem; line-height: 1.5; margin-top: 1.4rem; }
+.home-portrait { width: 220px; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 3px; }
+.home-section {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 660px);
+  gap: 2rem;
+  padding: 2.2rem 0;
+  border-top: 1px solid var(--line);
+}
+.home-section h2 { color: var(--accent); font-size: 1.45rem; }
+.home-section p { margin: 0 0 1rem; }
+.home-link { display: inline-block; margin: .3rem 1.5rem .3rem 0; color: var(--accent); text-underline-offset: .2em; }
+.notes-intro { max-width: 700px; line-height: 1.7; }
+.notes-list { max-width: 800px; margin-top: 2rem; }
+.note-entry { padding: 1.3rem 0; border-top: 1px solid var(--line); }
+.note-entry h2 { font-size: 1.25rem; line-height: 1.35; }
+.note-entry h2 a { color: var(--accent); text-decoration: none; }
+.note-entry h2 a:hover { text-decoration: underline; }
+.note-entry p { color: var(--muted); margin: .45rem 0 0; }
+.entry.card { border: 0; border-top: 1px solid var(--line); border-radius: 0; box-shadow: none; padding: 1.3rem 0; }
+.entry-list { gap: 0; margin-top: 2rem; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+@media (max-width: 640px) {
+  .home-intro { grid-template-columns: 1fr; gap: 1.5rem; padding: 3rem 0 2rem; }
+  .home-portrait { grid-row: 1; width: 150px; }
+  .home-section { grid-template-columns: 1fr; gap: 1rem; }
+}

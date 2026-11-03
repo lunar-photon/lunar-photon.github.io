@@ -1,6 +1,6 @@
 ---
 title: "Cosmology Notes"
-excerpt: "Cosmological perturbation theory, CMB polarization, and the transfer function — every equation derived. <br/><a href='/files/notes/cosmology-notes.pdf'>View PDF</a>"
+excerpt: "Cosmological perturbation theory, CMB polarization, and the transfer function, with every equation derived. <br/><a href='/files/notes/cosmology-notes.pdf'>View PDF</a>"
 collection: portfolio
 ---
 

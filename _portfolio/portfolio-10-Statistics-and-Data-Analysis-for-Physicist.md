@@ -1,5 +1,5 @@
 ---
-title: "Statistics and Data Analysis for Physicist"
+title: "Statistics and Data Analysis for Physicists"
 excerpt: "The book is built around the questions physicists actually ask: How do we describe uncertainty? Estimate quantities from data? Decide whether a signal is present? Set limits? Infer parameters? Simulate data and extract information from observations? <br/><a href='/files/notes/Statistics-and-Data-Analysis-for-Physicist.pdf'>View PDF</a>"
 collection: portfolio
 ---

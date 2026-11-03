@@ -72,7 +72,7 @@ Talks
 ======
 <ul>
   {% for post in site.talks reversed %}
-    <li>{{ post.date | date: "%Y" }} &middot; <em>{{ post.title }}</em> &mdash; {{ post.type }}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</li>
+    <li>{{ post.date | date: "%Y" }} &middot; <em>{{ post.title }}</em>, {{ post.type }}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</li>
   {% endfor %}
 </ul>
   
@@ -92,6 +92,6 @@ Outreach
 
 References
 ======
-* Dr. Nirmalya Kajuri, Assistant Professor, School of Physical Sciences, Indian Institute of Technology Mandi &mdash; nirmalya@iitmandi.ac.in
-* Prof. Debaprasad Maity, Professor, Department of Physics, Indian Institute of Technology Guwahati &mdash; debu@iitg.ac.in
-* Prof. Ashwini Kumar Sharma, Professor, Department of Physics, Indian Institute of Technology Guwahati &mdash; aksharma@iitg.ac.in
+* Dr. Nirmalya Kajuri, Assistant Professor, School of Physical Sciences, Indian Institute of Technology Mandi, nirmalya@iitmandi.ac.in
+* Prof. Debaprasad Maity, Professor, Department of Physics, Indian Institute of Technology Guwahati, debu@iitg.ac.in
+* Prof. Ashwini Kumar Sharma, Professor, Department of Physics, Indian Institute of Technology Guwahati, aksharma@iitg.ac.in

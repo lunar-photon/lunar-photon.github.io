@@ -12,4 +12,4 @@ citation: 'Prakash, C. & Karmakar, R. (2026). "Canonical quantization of massive
 ---
 This work carries out the canonical quantization of a massive vector field in a Schwarzschild black hole background, constructing the mode basis via Löwdin orthogonalization and analyzing the constrained Hamiltonian structure using Dirac-type methods. The resulting vacuum structure and field dynamics are examined near the horizon of the rotating and static black hole geometries.
 
-This paper is the outcome of a research collaboration with Dr. Rajesh Karmakar at Shanghai University (January–June 2026) on Dirac brackets and quantum field theory in curved spacetime.
+This paper is the outcome of a research collaboration with Dr. Rajesh Karmakar at Shanghai University (January-June 2026) on Dirac brackets and quantum field theory in curved spacetime.

@@ -12,7 +12,7 @@ site_theme               : "contrast" # The available themes options are "defaul
 title                    : "Chandra Prakash"
 title_separator          : "-"
 name                     : &name "Chandra Prakash"
-description              : &description "MSc Physics graduate from IIT Guwahati. Research interests in quantum gravity, holography, inflationary cosmology, and quantum field theory in curved spacetime."
+description              : &description "Research interests in the cosmic microwave background, early universe cosmology, quantum field theory, and black holes."
 url                      : https://lunar-photon.github.io # The base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lunar-photon/lunar-photon.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Chandra Prakash"
   pronouns         : "he/him"
-  bio              : "MSc Physics graduate from IIT Guwahati. Curious explorer of quantum gravity, holography, and early universe cosmology."
+  bio              : "Interested in cosmology, quantum field theory, and gravity."
   location         : "Guwahati, Assam, India"
   employer         : "IIT Guwahati"
   uri              : https://lunar-photon.github.io

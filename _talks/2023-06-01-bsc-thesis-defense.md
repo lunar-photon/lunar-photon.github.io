@@ -1,5 +1,5 @@
 ---
-title: "Momentum Operators and Wave–Particle Duality in Quantum Field Theory"
+title: "Momentum Operators and Wave-Particle Duality in Quantum Field Theory"
 collection: talks
 type: "BSc Thesis Defense"
 permalink: /talks/2023-06-01-bsc-thesis-defense
