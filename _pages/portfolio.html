@@ -4,13 +4,13 @@ title: "Notes"
 permalink: /portfolio/
 ---
 
-<p class="notes-intro">These are personal notes written while studying theoretical physics and cosmology. They work through calculations in detail and draw on the references credited in each set of notes. Corrections and suggestions are welcome.</p>
+<p>These personal notes cover theoretical physics and cosmology, with detailed calculations and references. Corrections and suggestions are welcome.</p>
 
-<div class="notes-list">
+<div class="course-grid">
   {% for post in site.portfolio %}
-    <article class="note-entry">
-      <h2><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt | split: "<br" | first | strip_html }}</p>
-    </article>
+    <div class="card course-card">
+      <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+    </div>
   {% endfor %}
 </div>
