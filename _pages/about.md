@@ -15,7 +15,6 @@ redirect_from:
       <p class="intro-text">I study questions at the intersection of cosmology, quantum field theory, and gravity. My research interests include the cosmic microwave background (CMB), early universe cosmology, field theory, and black holes. I am particularly interested in the quantum mechanical frameworks used to describe the early universe and in how its physics can leave observable signatures in the CMB.</p>
       <div class="button-row">
         <a class="btn" href="{{ base_path }}/publications/">Publications</a>
-        <a class="btn" href="{{ base_path }}/portfolio/">Notes</a>
       </div>
     </div>
   </div>
@@ -40,8 +39,5 @@ redirect_from:
         data-desc="{{ post.excerpt | split: "<br" | first | strip_html | strip_newlines | escape }}"
         data-href="{{ base_path }}{{ post.url }}">{{ post.title | remove: " Notes" }}</button>
     {% endfor %}
-  </div>
-  <div class="section-link">
-    <a class="text-link" href="{{ base_path }}/portfolio/">View all notes &rarr;</a>
   </div>
 </section>
